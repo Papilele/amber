@@ -5,7 +5,5 @@
 - HTML, CSS, JS, JQuery;
 - Bootstrap.
 
-Скриншоты:
-![Иллюстрация к проекту](https://github.com/Papilele/amber/blob/main/amber_screenshots/1.JPG)
-![Иллюстрация к проекту](https://github.com/Papilele/amber/blob/main/amber_screenshots/2.JPG)
-![Иллюстрация к проекту](https://github.com/Papilele/amber/blob/main/amber_screenshots/3.JPG)
+Скриншот:
+![Иллюстрация к проекту](https://github.com/Papilele/amber/blob/main/amber_screenshots/1.png)
