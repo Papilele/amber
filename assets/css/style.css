@@ -1,0 +1,494 @@
+/*Цвета и шрифты*/
+
+.fs-14 {
+    font-size: 0.875em;
+}
+
+.fs-15 {
+    font-size: 0.9375em;
+}
+
+.fs-16 {
+    font-size: 1em;
+}
+
+.fs-17 {
+    font-size: 1.0625em;
+}
+
+.fs-18 {
+    font-size: 1.125em;
+}
+
+.fs-24 {
+    font-size: 1.5em;
+}
+
+.fs-26 {
+    font-size: 1.625em;
+}
+
+.fs-28 {
+    font-size: 1.75em;
+}
+
+.fs-32 {
+    font-size: 2em;
+}
+
+.fs-40 {
+    font-size: 2.5em;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.text-color-ink-black {
+    color: #122022;
+}
+
+.text-color-pastel-grey {
+    color: #58595D;
+}
+
+.text-color-grayish-cyan {
+    color: #A2C1C4;
+}
+
+.text-color-coral-red {
+    color: #ED5B54;
+}
+
+.bold-600 {
+    font-weight: 600;
+}
+
+.bg-creamy-grey {
+    background-color: #EFEFEF;
+}
+
+.bg-white {
+    color: #FFFFFF;
+}
+
+.bg-light-gray {
+    background-color: #EEEEEE;
+}
+
+.bg-biege {
+    background-color: #F1EEE9;
+}
+
+body {
+    font-family: 'Value Sans Pro';
+}
+
+/*media*/
+@media (min-width:1890px) {
+    .decoration {
+        position: relative;
+    }
+
+    .decoration::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/decoration-3.png');
+    background-size: 2.4375em 21.3125em;
+    width: 2.4375em;
+    height: 21.3125em;
+    top: 8.23em;
+    left: -3.5em;
+    z-index: 1000;
+    }
+
+    section:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        background-image: url('../images/decoration-4.png');
+        bottom: 14.6875em;
+        left: 3.75em;
+        background-size: 11em 53.4375em;
+        width: 11em;
+        height: 53.4375em;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    header .container-fluid::after {
+        content: "";
+        position: absolute;
+        background-image: url('../images/decoration-1.png');
+        top: 14.4em;
+        right: 2em;
+        background-size: 7.5em 3.9375em;
+        width: 7.5em;
+        height: 3.9375em;
+    }
+
+    section:first-child::after {
+        content: "";
+        position: absolute;
+        background-image: url('../images/decoration-2.png');
+        top: 9.375em;
+        right: 7em;
+        background-size: 28.125em 28.125em;
+        width: 28.125em;
+        height: 28.125em;
+        z-index: -1;
+    }
+    
+    section:nth-child(2)::after {
+        content: "";
+        position: absolute;
+        background-image: url('../images/decoration-5.png');
+        bottom: -13.625em;
+        left: 0em;
+        background-size: 14.3125em 20.3125em;
+        width: 14.3125em;
+        height: 20.3125em;
+    }
+
+    section:nth-child(3)::before {
+        content: "";
+        position: absolute;
+        background-image: url('../images/decoration-6.png');
+        top: 0.0625em;
+        right: 0.0625em;
+        background-size: 78.1875em 25.875em;
+        width: 78.1875em;
+        height: 25.875em;
+    }
+    
+    section:nth-child(3)::after {
+        content: "";
+        position: absolute;
+        background-image: url('../images/decoration-7.png');
+        bottom: 2.5em;
+        right: 0em;
+        background-size: 24.6875em 12.6875em;
+        width: 24.6875em;
+        height: 12.6875em;
+    }
+
+    footer .container-fluid::before {
+        content: "";
+        position: absolute;
+        background-image: url('../images/decoration-8.png');
+        top: -6.375em;
+        left: 6.5625em;
+        background-size: 10.0625em 9.9375em;
+        width: 10.0625em;
+        height: 9.9375em;
+    }
+    
+    footer .container-fluid::after {
+        content: "";
+        position: absolute;
+        background-image: url('../images/decoration-9.png');
+        top: -1em;
+        left: 11.875em;
+        background-size: 5.9375em 6.0625em;
+        width: 5.9375em;
+        height: 6.0625em;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-company-image {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-radius: 6.2em 0 6.2em 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-company-image {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-radius: 3.3em 0 3.3em 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pt-xl-130 {
+        padding-top: 8.125em !important;
+    }
+
+    .pb-xl-250 {
+        padding-bottom: 15.625em !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .fs-sm-40 {
+        font-size: 2.5em !important; 
+    }
+
+    .fw-sm-normal {
+        font-weight: normal !important;
+    }
+}
+
+@media (min-width: 1px) {
+    .feedback {
+        font-size: 0;
+        display: inline-block;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .feedback {
+        font-size: 1.125em;
+        display: inline-block;
+        border-radius: 1.2em;
+    }
+}
+
+/*Header*/
+
+.line {
+    height: 0.0625em;
+    background-color: #122022;
+    width: 100%;
+}
+
+.social-button {
+    border: 1px solid #A2C1C4;;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 0;
+}
+
+/*.social-button:first-child {
+    background: url('../images/icon_facebook-1.svg') center/ 60% no-repeat;
+}
+
+.social-button:nth-child(2) {
+    background: url('../images/icon_vk-1.svg') center/ 60% no-repeat;
+}
+
+.social-button:last-child {
+    background: url('../images/icon_instagram-1.svg') center/ 60% no-repeat;
+}*/
+
+.icon-center {
+    position: relative;
+    top: 8px;
+    left: 7px;
+}
+
+header {
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+.menu {
+    position: relative;
+    line-height: 4.45em;
+}
+
+a {
+    text-decoration: none;
+    color: #58595D;
+}
+
+a:hover {
+    color:  #58595D;
+}
+
+.chevron {
+    width: 1em;
+    height: 1em;
+}
+
+.services::after {
+    content: '';
+    position: absolute;
+    height: 0.1875em;
+    width: 4.6875em;
+    background-color: #ED5B54;
+    top: 4.4em;
+    left: -0.3125em;
+}
+
+.services {
+    position: relative;
+}
+
+.drop-menu {
+    position: absolute;
+    top: 5em;
+    left: -1.5em;
+    z-index: 100;
+    line-height: 1.0625em;
+    box-shadow: 0 0.3125em 0.3125em #58595D;
+    border-radius: 0 0 1.875em 0;
+    transition: all 0.5s ease;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+ul li:first-child {
+    position: relative;
+}
+
+.drop-menu2 {
+    position: absolute;
+    top: 2.5em;
+    left: 0em;
+    z-index: 100;
+    box-shadow: 0 0.3125em 0.3125em #58595D;
+    border-radius: 0 0 1.5em 0;
+
+}
+
+button.navbar-toggler {
+    border: 0;
+}
+
+/* О компании*/
+
+section:first-child {
+    position: relative;
+}
+
+/*Раздел Примеры работ*/
+
+section:nth-child(2) {
+    position: relative;
+    background-image: url('../images/background.png');
+}
+
+.product-card {
+    border-radius: 3.125em 0 0 0 ;
+}
+
+.slider {
+    position: relative;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-arrow {
+    width: 48px;
+    height: 48px;
+}
+
+.slick-next {
+    font-size: 0;
+    border-radius: 50%;
+    border: 0;
+    background: url('../images/chevron-right.svg') center/ 60% no-repeat;
+    background-color: white;
+    transition: all 1s ease;
+}
+
+.slick-prev {
+    font-size: 0;
+    border: 0;
+    border-radius: 50%;
+    background: url('../images/chevron-left.svg') center/ 60% no-repeat;
+    background-color: white;
+    transition: all 1s ease;
+    margin-right: 18px;
+}
+
+.dots-style {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+.dots-style button {
+    border: 1px solid #58595D;
+    border-radius: 50%;
+    font-size: 0;
+    height: 8px;
+    width: 8px;
+    margin: 5px;
+    padding: 0;
+}
+
+.dots-style li[class="slick-active"] button {
+    width: 28px;
+    background-color: #A2C1C4;
+    border: 0;
+    border-radius: 5px;
+}
+
+.slick-disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.but-dis {
+    pointer-events: none;
+}
+
+/*Преимущества*/
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+section:nth-child(3) {
+    position: relative;
+}
+
+section:nth-child(3) div.col-xl-3:last-child > div  {
+    border-radius :  0 0 3.125em 0 ;
+}
+
+section:nth-child(3) div.col-xl-3:first-child  > div > div {
+    border-radius : 3.125em 0 0 0 ;
+}
+
+/*Footer*/
+
+footer {
+    position: relative;
+}
+
+.line-decoration {
+    height: 0.0625em;
+    width: 100%;
+    background-color: #58595D;
+    opacity: 0.15;
+    margin: 1.25em 0;
+}
+
+/*копирайт*/
+
+.political a {
+    text-decoration: underline;
+}
